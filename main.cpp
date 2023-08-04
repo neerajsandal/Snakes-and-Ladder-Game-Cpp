@@ -41,8 +41,10 @@ int main()
 		cout << "\n\t\t         **RULES OF THE GAME** " << endl;
 		cout << "\t\t    1. Game Starts when a player got a six." << endl;
 		cout << "\t\t    2. If your counter lands at the bottom of a ladder, you can move up to the top of the ladder" << endl;
-		cout << "\t\t    3. If your counter lands on the head of a snake, you must slide down to the bottom of the snake.\n" << endl;
-		cout << "\n\t To Start the Game , type 'start' in lowercase : ";
+		cout << "\t\t    3. If your counter lands on the head of a snake, you must slide down to the bottom of the snake." << endl;
+		cout << "\t\t    4. Players take turns rolling a dice and moving their counters along the board based on the dice roll." << endl;	
+		cout << "\t\t    5. The first player to reach or exceed the final position (100) wins the game." << endl;
+		cout << "\n\n\t To Start the Game , type 'start' in lowercase : ";
 		cin >> str;
 	}
 	while(!gameOver)
@@ -54,6 +56,8 @@ int main()
 		cout << "\t\t    1. Game Starts when a player got a six." << endl;
 		cout << "\t\t    2. If your counter lands at the bottom of a ladder, you can move up to the top of the ladder" << endl;
 		cout << "\t\t    3. If your counter lands on the head of a snake, you must slide down to the bottom of the snake." << endl;
+		cout << "\t\t    4. Players take turns rolling a dice and moving their counters along the board based on the dice roll." << endl;	
+		cout << "\t\t    5. The first player to reach or exceed the final position (100) wins the game." << endl;
 		cout << "\n\t\t\t Current Player " << player+1 << endl;
 		cout << "\t\t\t-----------------------------" << endl;
 		cout << "\t\t\t Player : " << player+1 << " rolled a " << dice() << endl;
